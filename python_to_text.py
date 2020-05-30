@@ -11,8 +11,13 @@ try:
        
        if (d):
         print('da gan')
-        e=d
-        print(d)
+        
+        if (d=='r'):
+         print ('rrrrrrrr')
+         e=d
+        if (d=='e'):
+         print ('eeeeeeeee')
+         e=d
         #file1.truncate(0)
         file1.close()
         file1 = open("test.txt","r+") 
