@@ -10,7 +10,7 @@ try:
        d=file1.readline()
        
        if (d):
-        print('da gan')
+        print('read ok')
         
         if (d=='r'):
          print ('rrrrrrrr')
@@ -25,7 +25,7 @@ try:
         file1.close()
         file1 = open("C:\\Users\\user\\Desktop\\rl_human\\test.txt","r")
        else:
-        print("ko co j")
+        print("nothing")
        print(e)
        
        #file2.truncate(0)
