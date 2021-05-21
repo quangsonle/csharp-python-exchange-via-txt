@@ -1,0 +1,18 @@
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\bin\x64\Debug\WindowsFormsApplication1.exe.config
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\bin\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\bin\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn shared data\obj\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\bin\x64\Debug\WindowsFormsApplication1.exe.config
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\bin\x64\Debug\WindowsFormsApplication1.exe
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\bin\x64\Debug\WindowsFormsApplication1.pdb
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ControlLab1\Desktop\project\csharp-python-exchange-via-txt\svn_shared_data\obj\x64\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
