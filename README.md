@@ -12,4 +12,4 @@ run the from, clcik button "init" to launch the python code
 
 click "buttons" to send data to python and receive daata from python.
 
-any feedbackm please email: officialquangsonle@gmail.com
+any feedback please email: officialquangsonle@gmail.com
