@@ -81,8 +81,9 @@ namespace WindowsFormsApplication1
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/c \"python C:\\Users\\ControlLab1\\Desktop\\project\\csharp-python-exchange-via-txt\\svn_shared_data\\bin\\x64\\Debug\\svn.py\"";
-           // startInfo.Arguments = "/C C:\\gstreamer\\1.0\\x86_64\\bin\\gst-launch-1.0.exe -v tcpclientsrc host=192.168.0.139 port=5001 ! application/x-rtp, payload=96 ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! fpsdisplaysink sync=false text-overlay=false ";
+            startInfo.Arguments = "/c \"python svn.py\"";
+            //startInfo.Arguments = "/c \"python C:\\Users\\ControlLab1\\Desktop\\project\\csharp-python-exchange-via-txt\\svn_shared_data\\bin\\x64\\Debug\\svn.py\"";
+            // startInfo.Arguments = "/C C:\\gstreamer\\1.0\\x86_64\\bin\\gst-launch-1.0.exe -v tcpclientsrc host=192.168.0.139 port=5001 ! application/x-rtp, payload=96 ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! fpsdisplaysink sync=false text-overlay=false ";
             process.StartInfo = startInfo;
             process.Start();
         }
