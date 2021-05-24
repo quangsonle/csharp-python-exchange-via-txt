@@ -1,5 +1,5 @@
 # csharp-python-exchange-via-txt
-c# and python share data together, without delay, via an intermidiate txt file
+c# and python share data together, without delay, via an intermediate txt file
 
 for further purpose of processing data using python (machine learning, signal processing) and UI on C#, can work synchronously 
 
