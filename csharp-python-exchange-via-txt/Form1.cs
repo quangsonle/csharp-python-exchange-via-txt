@@ -31,7 +31,8 @@ namespace WindowsFormsApplication1
 
             using (StreamWriter writer = new StreamWriter(@"test.txt"))
             {
-                writer.Write(-0.054541539 + delimiter + -0.25991479 + delimiter + -0.157079633 + delimiter + -0.783930406 + delimiter + -0.450946312);
+                writer.Write(textBox1.Text);
+                // writer.Write(-0.054541539 + delimiter + -0.25991479 + delimiter + -0.157079633 + delimiter + -0.783930406 + delimiter + -0.450946312);
                 sent = true;
 
             }
@@ -41,34 +42,23 @@ namespace WindowsFormsApplication1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter(@"test.txt"))
+           // using (StreamWriter writer = new StreamWriter(@"test.txt"))
             {
-                writer.Write(textBox1.Text);
-               
-
+                // writer.Write(textBox1.Text);
+                Console.WriteLine("ko co j ");
             }
         }
 
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Console.WriteLine("co phim dc nhan");
-          //  Console.WriteLine(e.KeyChar);
-
-            using (StreamWriter writer = new StreamWriter(@"test.txt"))
-            {
-
-
-               writer.Write(e.KeyChar);
-
-
-            }
+           
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = "rrrrrrdfsdfsdf";
+            label1.Text = "";
             KeyPreview = true;
            
             
@@ -80,8 +70,13 @@ namespace WindowsFormsApplication1
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
+            string pathabsexe = System.Reflection.Assembly.GetEntryAssembly().Location;
+            string pathabs = System.IO.Path.GetDirectoryName(pathabsexe);
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/c \"python svn.py\"";
+            string cmd_str = "python " + pathabs + "\\" +"python_to_text.py";
+            Console.WriteLine(cmd_str);
+            startInfo.Arguments = "/c \""+ cmd_str+"\"";
+           // startInfo.Arguments = "/c \"python svn.py\"";
             //startInfo.Arguments = "/c \"python C:\\Users\\ControlLab1\\Desktop\\project\\csharp-python-exchange-via-txt\\svn_shared_data\\bin\\x64\\Debug\\svn.py\"";
             // startInfo.Arguments = "/C C:\\gstreamer\\1.0\\x86_64\\bin\\gst-launch-1.0.exe -v tcpclientsrc host=192.168.0.139 port=5001 ! application/x-rtp, payload=96 ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! fpsdisplaysink sync=false text-overlay=false ";
             process.StartInfo = startInfo;
