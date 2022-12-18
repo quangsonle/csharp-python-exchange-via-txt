@@ -8,8 +8,8 @@ Instruction:
 
 use the C# project in csharp-python-exchange-via-txt, the"old" is old version without synchronization
 
-run the from, clcik button "init" to launch the python code
+run the from, click button "init" to launch the python code
 
-click "buttons" to send data to python and receive daata from python.
+click "buttons" to send data to python and receive data from python.
 
 any feedback please email: officialquangsonle@gmail.com
